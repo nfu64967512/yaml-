@@ -25,6 +25,9 @@ for frame in range(start_frame, end_frame + 1):  # 循環遍歷從開始幀到�
         'rotation': {'x': rotation.x, 'y': rotation.y, 'z': rotation.z}
     })
 
+
+    
+
 # 將數據寫入YAML文件
 output_file = 'C:/Users/User/Documents/animation/animation_data.yaml'
 with open(output_file, 'w') as file:
